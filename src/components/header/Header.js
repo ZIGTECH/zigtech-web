@@ -16,10 +16,10 @@ const Header = () => {
             <img src={images.logo}></img>
           </div>
           <ul className={open ? `nav-items active` : `nav-items`}>
-            <li>About</li>
-            <li>Contact</li>
+            <li>Home</li>
+            <li>Team</li>
             <li>Portfolio</li>
-            <li className="btn btn--nav-btn">View Plans</li>
+            <li className="btn btn--nav-btn">Contact</li>
           </ul>
           <div className="hamburger">
             <img src={images.hamburger} onClick={handleClick}></img>
