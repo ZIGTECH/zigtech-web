@@ -1,6 +1,6 @@
 header{
     width: 100%;
-    background-color: var(--white);
+    background-color: #5E043D;
     box-shadow: 3px 3px 3px rgba($color: #000000, $alpha: 0.2);
 
     .navbar{
@@ -21,6 +21,7 @@ header{
             max-width: 40rem;
             justify-content: space-between;
             align-items: center;
+            color: var(--white);
            
             li{
                 font-size: 2rem;

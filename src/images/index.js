@@ -1,5 +1,7 @@
 export const images = {
-  logo: require("./logo.svg").default,
+  // logo: require("./logo.svg").default,
+  logo: require("./zigtech.png"),
+  hero: require("./hero.png"),
   intro_desktop: require("./image-intro-desktop.jpg"),
   intro_mobile: require("./image-intro-mobile.jpg"),
   intro_left: require("./bg-pattern-intro-left-desktop.svg").default,
