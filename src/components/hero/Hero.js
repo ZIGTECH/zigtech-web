@@ -1,6 +1,7 @@
 import React from "react";
 import "./hero.scss";
 import { images } from "../../images";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
@@ -30,7 +31,7 @@ const Hero = () => {
               need a mobile app, web application, or enterprise software, we
               have the skills and experience to bring your vision to life.
             </p>
-            <button className="btn">VIEW PLANS</button>
+            {/* <button className="btn">VIEW PLANS</button> */}
           </div>
           <div className="hero__image">
             <picture>
