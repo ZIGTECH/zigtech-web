@@ -7,7 +7,7 @@ const Info = () => {
     <div>
       <div className="we-are-different">
         <div className="container">
-          <h2 className="title1 title1--mod">We are different</h2>
+          <h2 className="title1 title1--mod">Solutions we provide</h2>
           <div className="we-are-different__content">
             <div className="snappy">
               <lord-icon
