@@ -6,6 +6,7 @@ import Footer from "../../components/footer/Footer";
 import Hero from "../../components/hero/Hero";
 import Info from "../../components/info/Info";
 import Product from "../../components/product/Product";
+import Team from "../../components/team/Team";
 
 const Home = () => {
   return (
@@ -25,6 +26,9 @@ const Home = () => {
       </section>
       <section className="section2">
         <Contact />
+      </section>
+      <section className="section2">
+        <Team />
       </section>
     </div>
   );

@@ -1,0 +1,38 @@
+
+
+.team img {
+  aspect-ratio: 1/1;
+}
+
+.team ul {
+  max-width: 100px;
+}
+
+.team ul li a {
+  transform: rotate(-45deg);
+}
+
+.team .overlay {
+  width: calc(100% - 20px);
+  top: 10px;
+  height: calc(100% - 10px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.team .active {
+  opacity: 1;
+  border-color: #818cf8;
+}
+
+.team .active .overlay {
+  background-color: #818cf8b3;
+}
+
+.team .active ul {
+  opacity: 1;
+}
+
+.team .active a {
+  color: #1f2937;
+}
