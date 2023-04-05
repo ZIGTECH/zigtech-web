@@ -6,7 +6,7 @@ function Testimonial() {
     <section class="overflow-hidden relative min-h-screen grid grid-cols-1 lg:grid-cols-12 place-content-center lg:place-items-center lg:gap-16 max-w-7xl mx-auto px-6 py-10">
       <div class="relative z-10 mb-10 lg:mb-0 col-span-6">
         <div class="hidden xl:block 3xl:hidden fixed top-[-6rem] left-[-5rem] w-64 h-64 bg-red-50 rounded-full"></div>
-        <h1 class="relative z-10 sm:text-5xl text-3xl 2xl:text-6xl font-bold sm:leading-snug 2xl:leading-tight">
+        <h1 class="relative z-10 sm:text-5xl text-5xl 2xl:text-6xl font-bold sm:leading-snug 2xl:leading-tight">
           Bringing value <br />
           across different brands.
         </h1>
