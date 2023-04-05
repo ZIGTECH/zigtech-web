@@ -21,4 +21,6 @@ export const images = {
   footer_mob: require("./bg-pattern-footer-mobile.svg").default,
   hamburger: require("./icon-hamburger.svg").default,
   ipay: require("./iPay.png"),
+  iremit: require("./iremit.png"),
+  imoney: require("./imoney.png"),
 };

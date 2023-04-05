@@ -31,7 +31,7 @@ function Product() {
             <div class="portfolio-item mx-auto max-w-sm">
               <div class="portfolio-img relative overflow-hidden cursor-pointer">
                 <img
-                  src="//via.placeholder.com/800x600/666"
+                  src={images.ipay}
                   alt="portfolio image"
                   class="max-w-full h-auto"
                 />
@@ -39,12 +39,9 @@ function Product() {
               </div>
               <div class="px-1 py-4">
                 <h5 class="font-semibold text-xl text-indigo-600 uppercase">
-                  WebMeeting Features
+                  iPay App
                 </h5>
-                <p class="text-gray-600">
-                  FWR blocks are beautifully crafted with creativity, passion
-                  and quality.
-                </p>
+                <p class="text-gray-600">Super payment app</p>
               </div>
             </div>
           </div>
@@ -53,7 +50,7 @@ function Product() {
             <div class="portfolio-item mx-auto max-w-sm">
               <div class="portfolio-img relative overflow-hidden cursor-pointer">
                 <img
-                  src="//via.placeholder.com/800x600/666"
+                  src={images.iremit}
                   alt="portfolio image"
                   class="max-w-full h-auto"
                 />
@@ -61,12 +58,9 @@ function Product() {
               </div>
               <div class="px-1 py-4">
                 <h5 class="font-semibold text-xl text-indigo-600 uppercase">
-                  Young Bloods
+                  iRemit SaaS
                 </h5>
-                <p class="text-gray-600">
-                  FWR blocks bring in a fresh air of art and design in their
-                  blocks.
-                </p>
+                <p class="text-gray-600">Remittance SaaS System</p>
               </div>
             </div>
           </div>
@@ -75,19 +69,19 @@ function Product() {
             <div class="portfolio-item mx-auto max-w-sm">
               <div class="portfolio-img relative overflow-hidden cursor-pointer">
                 <img
-                  src="//via.placeholder.com/800x600/666"
+                  src={images.imoney}
                   alt="portfolio image"
                   class="max-w-full h-auto"
+                  width={20}
                 />
                 <div class="portfolio-hover"></div>
               </div>
               <div class="px-1 py-4">
                 <h5 class="font-semibold text-xl text-indigo-600 uppercase">
-                  Nike90 Store
+                  iMoney App
                 </h5>
                 <p class="text-gray-600">
-                  FWR blocks are reusable code blocks for designers, developers
-                  and agencies.
+                  Client App to facilitate Money transfer service
                 </p>
               </div>
             </div>
