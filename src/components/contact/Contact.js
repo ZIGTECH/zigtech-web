@@ -29,6 +29,14 @@ function Contact() {
             />
           </div>
           <div>
+            <input
+              type="text"
+              class="form-control rounded border-white mb-3 form-input"
+              placeholder="Phone number"
+              required
+            />
+          </div>
+          <div>
             <textarea
               id="message"
               class="form-control rounded border-white mb-3 form-text-area"
