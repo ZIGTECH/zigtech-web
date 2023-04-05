@@ -38,10 +38,13 @@ function Product() {
                 <div class="portfolio-hover"></div>
               </div>
               <div class="px-1 py-4">
-                <h5 class="font-semibold text-xl text-indigo-600 uppercase">
+                <h5 class="font-bold text-2xl text-black-600 uppercase text-center">
                   iPay App
                 </h5>
-                <p class="text-gray-600">Super payment app</p>
+                <p class="text-gray-600 text-center">
+                  A super payment app is a mobile application that allows users
+                  to make financial transactions electronically.
+                </p>
               </div>
             </div>
           </div>
@@ -57,37 +60,49 @@ function Product() {
                 <div class="portfolio-hover"></div>
               </div>
               <div class="px-1 py-4">
-                <h5 class="font-semibold text-xl text-indigo-600 uppercase">
+                <h5 class="font-bold text-2xl text-black-600 uppercase text-center">
                   iRemit SaaS
                 </h5>
-                <p class="text-gray-600">Remittance SaaS System</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="sm:px-6 sm:w-1/2 lg:w-1/3 mt-8">
-            <div class="portfolio-item mx-auto max-w-sm">
-              <div class="portfolio-img relative overflow-hidden cursor-pointer">
-                <img
-                  src={images.imoney}
-                  alt="portfolio image"
-                  class="max-w-full h-auto"
-                  style={{ width: "160px" }}
-                />
-                <div class="portfolio-hover"></div>
-              </div>
-              <div class="px-1 py-4">
-                <h5 class="font-semibold text-xl text-indigo-600 uppercase">
-                  iMoney App
-                </h5>
-                <p class="text-gray-600">
-                  Client App to facilitate Money transfer service
+                <p class="text-gray-600 text-center">
+                  Remittance SaaS System is a cloud-based software solution that
+                  enables individuals or businesses to send and receive money
+                  internationally.
                 </p>
               </div>
             </div>
           </div>
 
           <div class="sm:px-6 sm:w-1/2 lg:w-1/3 mt-8">
+            <div class="portfolio-item mx-auto max-w-sm">
+              <div
+                class="portfolio-img relative overflow-hidden cursor-pointer"
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src={images.imoney}
+                  alt="portfolio image"
+                  class="max-w-full h-auto"
+                  style={{ width: "150px" }}
+                />
+                <div class="portfolio-hover"></div>
+              </div>
+              <div class="px-1 py-4">
+                <h5 class="font-bold text-2xl text-black-600 uppercase text-center">
+                  iMoney App
+                </h5>
+                <p class="text-gray-600 text-center">
+                  A money transfer app is a mobile application that allows users
+                  to send and receive money electronically.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* <div class="sm:px-6 sm:w-1/2 lg:w-1/3 mt-8">
             <div class="portfolio-item mx-auto max-w-sm">
               <div class="portfolio-img relative overflow-hidden cursor-pointer">
                 <img
@@ -149,7 +164,7 @@ function Product() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
