@@ -25,4 +25,7 @@ export const images = {
   imoney: require("./imoney.png"),
   gppa: require("./gppa.jpeg"),
   eden: require("./eden.png"),
+  david: require("./dee.jpeg"),
+  fatou: require("./fatou.jpeg"),
+  omar: require("./omar.jpeg"),
 };
