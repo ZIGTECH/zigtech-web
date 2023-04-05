@@ -28,7 +28,6 @@ const Home = () => {
       <section className="section2">
         <Testimonial />
       </section>
-
       <section className="section2">
         <Team />
       </section>
