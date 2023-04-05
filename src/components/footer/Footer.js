@@ -3,37 +3,69 @@ import "./footer.scss";
 
 const Footer = () => {
   return (
-    <footer>
-      <div class="footer">
-        <div class="footer_about">
-          <h3>About Us</h3>
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <h3>
+          Zahra Innovative <span>Technologies</span>
+        </h3>
+
+        <p class="footer-links">
+          <a href="#" class="link-1">
+            Home
+          </a>
+
+          <a href="#">Team</a>
+
+          <a href="#">Portfolio</a>
+
+          <a href="#">Contact Us</a>
+        </p>
+
+        <p class="footer-company-name">Zigtech © 2022</p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p>46 Kairaba Avenue, The Gambia</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+220-7025555</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
           <p>
-            Zigtech is a leading software development company that offers
-            innovative and cutting-edge solutions for businesses of all sizes.
-            Contact us today to learn more about our services and how we can
-            help your business succeed.
+            <a href="mailto:support@company.com">info@zigtech.net</a>
           </p>
         </div>
-        <div class="footer_main">
-          <h3>REACH US</h3>
-          <ul>
-            <li>Kairaba Avenue</li>
-            <li>The Gambia, West Africa</li>
-            <li>555-555-555</li>
-            <li>info@zigtech.net</li>
-          </ul>
-        </div>
-        <div class="footer_right">
-          <div class="footer_links">
-            <i className="fas fa-facebook-alt"></i>
-            <i className="fas fa-twitter"></i>
-            <i className="fas fa-telegram"></i>
-            <i className="fas fa-pintrest"></i>
-          </div>
-        </div>
       </div>
-      <div class="copyright">
-        Copyright © 2022 All Rights Reserved by Zigtech.
+
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About Us</span>
+          Zigtech is a leading software development company that offers
+          innovative and cutting-edge solutions for businesses of all sizes.
+          Contact us today to learn more about our services and how we can help
+          your business succeed.
+        </p>
+
+        <div class="footer-icons">
+          <a href="#">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
       </div>
     </footer>
   );

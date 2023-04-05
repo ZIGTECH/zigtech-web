@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import "./banner.scss";
+import { images } from "../../images";
 
 const Banner = () => {
   const settings = {
@@ -48,47 +49,27 @@ const Banner = () => {
       </h2> */}
       <Slider {...settings}>
         <div class="sponsor-feature">
-          <img
-            alt=""
-            src="https://itagroup.hs.llnwd.net/o40/csg/pse-demo/channel-incentive/logo-mil.png"
-            style={{ width: "155px" }}
-          />
+          <img alt="" src={images.ipay} style={{ width: "155px" }} />
         </div>
         <div class="sponsor-feature">
-          <img
-            alt=""
-            src="https://itagroup.hs.llnwd.net/o40/csg/pse-demo/channel-incentive/logo-timberline.jpg"
-            style={{ width: "155px" }}
-          />
+          <img alt="" src={images.imoney} style={{ width: "155px" }} />
         </div>
         <div class="sponsor-feature">
-          <img
-            alt=""
-            src="https://itagroup.hs.llnwd.net/o40/csg/pse-demo/channel-incentive/logo-ppg.jpg"
-            style={{ width: "155px" }}
-          />
+          <img alt="" src={images.gppa} style={{ width: "155px" }} />
         </div>
         <div class="sponsor-feature">
-          <img
-            alt=""
-            src="https://itagroup.hs.llnwd.net/o40/csg/pse-demo/channel-incentive/logos/logo1.jpg"
-            style={{ width: "155px" }}
-          />
+          <img alt="" src={images.iremit} style={{ width: "155px" }} />
         </div>
         <div class="sponsor-feature">
-          <img
-            alt=""
-            src="https://itagroup.hs.llnwd.net/o40/csg/pse-demo/channel-incentive/logos/logo2.jpg"
-            style={{ width: "155px" }}
-          />
+          <img alt="" src={images.eden} style={{ width: "155px" }} />
         </div>
-        <div class="sponsor-feature">
+        {/* <div class="sponsor-feature">
           <img
             alt=""
             src="https://itagroup.hs.llnwd.net/o40/csg/pse-demo/channel-incentive/logos/logo3.jpg"
             style={{ width: "155px" }}
           />
-        </div>
+        </div> */}
       </Slider>
     </div>
   );

@@ -23,4 +23,6 @@ export const images = {
   ipay: require("./iPay.png"),
   iremit: require("./iremit.png"),
   imoney: require("./imoney.png"),
+  gppa: require("./gppa.jpeg"),
+  eden: require("./eden.png"),
 };
