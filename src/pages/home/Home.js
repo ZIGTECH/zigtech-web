@@ -7,6 +7,7 @@ import Hero from "../../components/hero/Hero";
 import Info from "../../components/info/Info";
 import Product from "../../components/product/Product";
 import Team from "../../components/team/Team";
+import Testimonial from "../../components/testimonial /Testimonial";
 
 const Home = () => {
   return (
@@ -25,10 +26,14 @@ const Home = () => {
         <Fixed />
       </section>
       <section className="section2">
-        <Contact />
+        <Testimonial />
       </section>
+
       <section className="section2">
         <Team />
+      </section>
+      <section className="section2">
+        <Contact />
       </section>
     </div>
   );
