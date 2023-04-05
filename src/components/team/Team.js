@@ -24,30 +24,7 @@ function Team() {
               alt="James Williams"
               class="w-full object-cover"
             />
-            <div class="overlay absolute bg-indigo-400 bg-opacity-0 group-hover:bg-opacity-70 grid place-items-center transition-colors ease-in delay-100">
-              <ul class="opacity-0 transition transition-opacity group-hover:opacity-100 ease-in-out delay-150 flex flex-wrap gap-1 text-xl place-items-center transform rotate-45">
-                <li class="w-11 h-11 bg-gray-700 flex items-center justify-center cursor-pointer hover:bg-gray-600">
-                  <a href="#">
-                    <i class="fa-brands fa-facebook-f text-white"></i>
-                  </a>
-                </li>
-                <li class="w-11 h-11 bg-gray-700 flex items-center justify-center cursor-pointer hover:bg-gray-600">
-                  <a href="#">
-                    <i class="fa-solid fa-envelope text-white"></i>
-                  </a>
-                </li>
-                <li class="w-11 h-11 bg-gray-700 flex items-center justify-center cursor-pointer hover:bg-gray-600">
-                  <a href="#">
-                    <i class="fa-brands fa-linkedin-in text-white"></i>
-                  </a>
-                </li>
-                <li class="w-11 h-11 bg-gray-700 flex items-center justify-center cursor-pointer hover:bg-gray-600">
-                  <a href="#">
-                    <i class="fa-brands fa-twitter text-white"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
+            <div class="overlay absolute bg-indigo-400 bg-opacity-0 group-hover:bg-opacity-70 grid place-items-center transition-colors ease-in delay-100"></div>
           </div>
           <div class="pt-5 pb-7 px-5 text-center">
             <h2 class="text-xl font-semibold">James Williams</h2>
@@ -69,30 +46,7 @@ function Team() {
               alt="Alex Smith"
               class="w-full object-cover"
             />
-            <div class="overlay absolute bg-indigo-400 bg-opacity-0 group-hover:bg-opacity-70 grid place-items-center transition-colors ease-in delay-100">
-              <ul class="opacity-0 transition transition-opacity group-hover:opacity-100 ease-in-out delay-150 flex flex-wrap gap-1 text-xl place-items-center transform rotate-45">
-                <li class="w-11 h-11 bg-gray-700 flex items-center justify-center cursor-pointer hover:bg-gray-600">
-                  <a href="#">
-                    <i class="fa-brands fa-facebook-f text-white"></i>
-                  </a>
-                </li>
-                <li class="w-11 h-11 bg-gray-700 flex items-center justify-center cursor-pointer hover:bg-gray-600">
-                  <a href="#">
-                    <i class="fa-solid fa-envelope text-white"></i>
-                  </a>
-                </li>
-                <li class="w-11 h-11 bg-gray-700 flex items-center justify-center cursor-pointer hover:bg-gray-600">
-                  <a href="#">
-                    <i class="fa-brands fa-linkedin-in text-white"></i>
-                  </a>
-                </li>
-                <li class="w-11 h-11 bg-gray-700 flex items-center justify-center cursor-pointer hover:bg-gray-600">
-                  <a href="#">
-                    <i class="fa-brands fa-twitter text-white"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
+            <div class="overlay absolute bg-indigo-400 bg-opacity-0 group-hover:bg-opacity-70 grid place-items-center transition-colors ease-in delay-100"></div>
           </div>
           <div class="pt-5 pb-7 px-5 text-center">
             <h2 class="text-xl font-semibold">Alex Smith</h2>
@@ -115,30 +69,7 @@ function Team() {
               alt="Evan Brooks"
               class="w-full object-cover"
             />
-            <div class="overlay absolute bg-indigo-400 bg-opacity-0 group-hover:bg-opacity-70 grid place-items-center transition-colors ease-in delay-100">
-              <ul class="opacity-0 transition transition-opacity group-hover:opacity-100 ease-in-out delay-150 flex flex-wrap gap-1 text-xl place-items-center transform rotate-45">
-                <li class="w-11 h-11 bg-gray-700 flex items-center justify-center cursor-pointer hover:bg-gray-600">
-                  <a href="#">
-                    <i class="fa-brands fa-facebook-f text-white"></i>
-                  </a>
-                </li>
-                <li class="w-11 h-11 bg-gray-700 flex items-center justify-center cursor-pointer hover:bg-gray-600">
-                  <a href="#">
-                    <i class="fa-solid fa-envelope text-white"></i>
-                  </a>
-                </li>
-                <li class="w-11 h-11 bg-gray-700 flex items-center justify-center cursor-pointer hover:bg-gray-600">
-                  <a href="#">
-                    <i class="fa-brands fa-linkedin-in text-white"></i>
-                  </a>
-                </li>
-                <li class="w-11 h-11 bg-gray-700 flex items-center justify-center cursor-pointer hover:bg-gray-600">
-                  <a href="#">
-                    <i class="fa-brands fa-twitter text-white"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
+            <div class="overlay absolute bg-indigo-400 bg-opacity-0 group-hover:bg-opacity-70 grid place-items-center transition-colors ease-in delay-100"></div>
           </div>
           <div class="pt-5 pb-7 px-5 text-center">
             <h2 class="text-xl font-semibold">Evan Brooks</h2>
@@ -161,30 +92,7 @@ function Team() {
               alt="Eva Doe"
               class="w-full object-cover"
             />
-            <div class="overlay absolute bg-indigo-400 bg-opacity-0 group-hover:bg-opacity-70 grid place-items-center transition-colors ease-in delay-100">
-              <ul class="opacity-0 transition transition-opacity group-hover:opacity-100 ease-in-out delay-150 flex flex-wrap gap-1 text-xl place-items-center transform rotate-45">
-                <li class="w-11 h-11 bg-gray-700 flex items-center justify-center cursor-pointer hover:bg-gray-600">
-                  <a href="#">
-                    <i class="fa-brands fa-facebook-f text-white"></i>
-                  </a>
-                </li>
-                <li class="w-11 h-11 bg-gray-700 flex items-center justify-center cursor-pointer hover:bg-gray-600">
-                  <a href="#">
-                    <i class="fa-solid fa-envelope text-white"></i>
-                  </a>
-                </li>
-                <li class="w-11 h-11 bg-gray-700 flex items-center justify-center cursor-pointer hover:bg-gray-600">
-                  <a href="#">
-                    <i class="fa-brands fa-linkedin-in text-white"></i>
-                  </a>
-                </li>
-                <li class="w-11 h-11 bg-gray-700 flex items-center justify-center cursor-pointer hover:bg-gray-600">
-                  <a href="#">
-                    <i class="fa-brands fa-twitter text-white"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
+            <div class="overlay absolute bg-indigo-400 bg-opacity-0 group-hover:bg-opacity-70 grid place-items-center transition-colors ease-in delay-100"></div>
           </div>
           <div class="pt-5 pb-7 px-5 text-center">
             <h2 class="text-xl font-semibold">Eva Doe</h2>

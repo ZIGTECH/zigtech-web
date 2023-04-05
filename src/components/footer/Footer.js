@@ -25,10 +25,10 @@ const Footer = () => {
         </div>
         <div class="footer_right">
           <div class="footer_links">
-            <i class="fas fa-facebook-alt"></i>
-            <i class="fas fa-twitter"></i>
-            <i class="fas fa-telegram"></i>
-            <i class="fas fa-pintrest"></i>
+            <i className="fas fa-facebook-alt"></i>
+            <i className="fas fa-twitter"></i>
+            <i className="fas fa-telegram"></i>
+            <i className="fas fa-pintrest"></i>
           </div>
         </div>
       </div>

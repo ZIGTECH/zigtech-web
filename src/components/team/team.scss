@@ -13,20 +13,20 @@
 }
 
 .team .overlay {
-  width: calc(100% - 20px);
-  top: 10px;
-  height: calc(100% - 10px);
-  left: 50%;
-  transform: translateX(-50%);
+//   width: calc(100% - 20px);
+//   top: 10px;
+//   height: calc(100% - 10px);
+//   left: 50%;
+//   transform: translateX(-50%);
 }
 
 .team .active {
   opacity: 1;
-  border-color: #818cf8;
+//   border-color: #818cf8;
 }
 
 .team .active .overlay {
-  background-color: #818cf8b3;
+//   background-color: #818cf8b3;
 }
 
 .team .active ul {
