@@ -8,7 +8,7 @@ function Product() {
       <div class="container px-4 mx-auto">
         <div class="md:flex md:justify-center">
           <div class="md:w-10/12 xl:w-8/12 text-center">
-            <h1 class="text-3xl md:text-4xl mb-4">Recent Projects</h1>
+            <h1 class="text-3xl md:text-7xl mb-4">Recent Projects</h1>
             <p class="text-xxl font-light">
               At Zigtech, we are proud of the work we have done for our clients.
               Our portfolio showcases some of the innovative and effective

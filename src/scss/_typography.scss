@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap");
 
-body{
-  
-}
 
 
 
@@ -21,6 +18,8 @@ h1,
 .title1 {
   font-size: 6rem;
   position: relative;
+  font-family: "Playfair Display", serif;
+
   @media (max-width: 767px) {
     font-size: 4rem;
   }
