@@ -72,7 +72,7 @@ function Product() {
                   src={images.imoney}
                   alt="portfolio image"
                   class="max-w-full h-auto"
-                  width={20}
+                  style={{ width: "160px" }}
                 />
                 <div class="portfolio-hover"></div>
               </div>
