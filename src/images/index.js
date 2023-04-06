@@ -28,4 +28,5 @@ export const images = {
   david: require("./dee.jpeg"),
   fatou: require("./fatou.jpeg"),
   omar: require("./omar.jpeg"),
+  bakary: require("./bakary.jpeg"),
 };

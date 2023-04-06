@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.58e6c610.css",
-    "main.js": "/static/js/main.ad2e5584.js",
+    "main.css": "/static/css/main.44f17562.css",
+    "main.js": "/static/js/main.7e761e96.js",
     "static/media/hero.png": "/static/media/hero.4435dee4e12900579a92.png",
     "static/media/iremit.png": "/static/media/iremit.fa8853d1f5c54ae49d99.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -14,6 +14,7 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/dee.jpeg": "/static/media/dee.a20b3037ae7dbd2e9a9e.jpeg",
     "static/media/image-intro-desktop.jpg": "/static/media/image-intro-desktop.2f3429f63753a67e322b.jpg",
+    "static/media/bakary.jpeg": "/static/media/bakary.b18077201f7612d8b4ea.jpeg",
     "static/media/fatou.jpeg": "/static/media/fatou.3e4ea3aa9811bff9fb1a.jpeg",
     "static/media/eden.png": "/static/media/eden.58be75096d2c47dea4f3.png",
     "static/media/image-intro-mobile.jpg": "/static/media/image-intro-mobile.8b8c3185ce1388b2bb9e.jpg",
@@ -40,11 +41,11 @@
     "static/media/icon-facebook.svg": "/static/media/icon-facebook.4333c44571bee8e7f461b2fdaed6a6c0.svg",
     "static/media/icon-snappy-process.svg": "/static/media/icon-snappy-process.eea918825472aa9c0993c85ced5522e7.svg",
     "static/media/icon-hamburger.svg": "/static/media/icon-hamburger.d550a648e0286cb7dddf1b1c8fc23d17.svg",
-    "main.58e6c610.css.map": "/static/css/main.58e6c610.css.map",
-    "main.ad2e5584.js.map": "/static/js/main.ad2e5584.js.map"
+    "main.44f17562.css.map": "/static/css/main.44f17562.css.map",
+    "main.7e761e96.js.map": "/static/js/main.7e761e96.js.map"
   },
   "entrypoints": [
-    "static/css/main.58e6c610.css",
-    "static/js/main.ad2e5584.js"
+    "static/css/main.44f17562.css",
+    "static/js/main.7e761e96.js"
   ]
 }
