@@ -9,19 +9,19 @@ function Product() {
       heading: "iPay App",
       content:
         "A super payment app is a mobile application that allows users to make financial transactions electronically.",
-      image: images.iremit,
+      image: images.hero,
     },
     {
-      heading: "iRemit SaaS",
+      heading: "hero SaaS",
       content:
         "Remittance SaaS System is a cloud-based software solution that enables individuals or businesses to send and receive money internationally.",
-      image: images.iremit,
+      image: images.hero,
     },
     {
       heading: "iMoney App",
       content:
         "A money transfer app is a mobile application that allows users to send and receive money electronically.",
-      image: images.iremit,
+      image: images.hero,
     },
   ];
   return (
@@ -46,29 +46,7 @@ function Product() {
             </div> */}
           </div>
         </div>
-
-        <div class="sm:flex sm:flex-wrap flex-shrink-0 sm:-mx-4 mt-6 md:mt-12 pb-6 justify-between md:px-10">
-          {/* <div class="sm:px-6 sm:w-1/2 md:w-2/5 lg:w-[32%] mt-8 bg-red-50 p-4 shadow hover:sh">
-            <div class="portfolio-item mx-auto max-w-sm">
-              <div class="portfolio-img relative overflow-hidden cursor-pointer">
-                <img
-                  src={images.ipay}
-                  alt="portfolio image"
-                  class="max-w-full h-auto"
-                />
-                <div class="portfolio-hover"></div>
-              </div>
-              <div class="px-1 py-4">
-                <h5 class="font-bold text-2xl text-black-600 uppercase text-center">
-                  iPay App
-                </h5>
-                <p class="text-gray-600 text-center">
-                  A super payment app is a mobile application that allows users
-                  to make financial transactions electronically.
-                </p>
-              </div>
-            </div>
-          </div> */}
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
           {cardDetails.map((data) => (
             <ProductCard props={data} />
           ))}
