@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { images } from "../../images";
 import "./header.scss";
 
@@ -16,10 +17,18 @@ const Header = () => {
             <img src={images.logo}></img>
           </div>
           <ul className={open ? `nav-items active` : `nav-items`}>
-            <li>Home</li>
-            <li>Team</li>
-            <li>Portfolio</li>
-            <li className="btn btn--nav-btn">Contact</li>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="#team">Team</a>
+            </li>
+            <li>
+              <a href="#product">Portfolio</a>
+            </li>
+            <li className="btn btn--nav-btn">
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
           <div className="hamburger">
             <img src={images.hamburger} onClick={handleClick}></img>
