@@ -26,8 +26,8 @@ function Product() {
           </div>
         </div>
 
-        <div class="sm:flex sm:flex-wrap sm:-mx-4 mt-6 md:mt-12 pb-6">
-          <div class="sm:px-6 sm:w-1/2 lg:w-1/3 mt-8">
+        <div class="sm:flex sm:flex-wrap gap-2 sm:-mx-4 mx-0 mt-6 md:mt-12 pb-6">
+          <div class="sm:p-6 p-10 sm:w-1/2 lg:w-[33%] mt-8 shadow-md hover:shadow-none">
             <div class="portfolio-item mx-auto max-w-sm">
               <div class="portfolio-img relative overflow-hidden cursor-pointer">
                 <img
@@ -49,7 +49,7 @@ function Product() {
             </div>
           </div>
 
-          <div class="sm:px-6 sm:w-1/2 lg:w-1/3 mt-8">
+          <div class="sm:p-6 p-10 sm:w-1/2 lg:w-[33%] mt-8 shadow-md hover:shadow-none">
             <div class="portfolio-item mx-auto max-w-sm">
               <div class="portfolio-img relative overflow-hidden cursor-pointer">
                 <img
@@ -72,7 +72,7 @@ function Product() {
             </div>
           </div>
 
-          <div class="sm:px-6 sm:w-1/2 lg:w-1/3 mt-8">
+          <div class="sm:p-6 p-10 sm:w-1/2 lg:w-[33%] mt-8 shadow-md hover:shadow-none">
             <div class="portfolio-item mx-auto max-w-sm">
               <div
                 class="portfolio-img relative overflow-hidden cursor-pointer"
@@ -86,7 +86,7 @@ function Product() {
                   src={images.imoney}
                   alt="portfolio image"
                   class="max-w-full h-auto"
-                  style={{ width: "150px" }}
+                  style={{ width: "155px", padding: "10px" }}
                 />
                 <div class="portfolio-hover"></div>
               </div>
