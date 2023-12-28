@@ -3,7 +3,7 @@ import "./testimonial.scss";
 
 function Testimonial() {
   return (
-    <section class="overflow-hidden relative min-h-screen grid grid-cols-1 lg:grid-cols-12 place-content-center lg:place-items-center lg:gap-16 max-w-7xl mx-auto px-6 py-10">
+    <section class="overflow-hidden relative min-h-fit grid grid-cols-1 lg:grid-cols-12 place-content-center lg:place-items-center lg:gap-16 max-w-[1280px] w-full mx-auto px-6 py-14">
       <div class="relative z-10 mb-10 lg:mb-0 col-span-6">
         <div class="hidden xl:block 3xl:hidden fixed top-[-6rem] left-[-5rem] w-64 h-64 bg-red-50 rounded-full"></div>
         <h1 class="relative z-10 sm:text-5xl text-5xl 2xl:text-6xl font-bold sm:leading-snug 2xl:leading-tight">
@@ -143,7 +143,7 @@ function Testimonial() {
             <div class="rounded-full w-24 h-24 2xl:w-28 2xl:h-28 bg-gradient-to-r from-[#deb2b280] to-[#deb2b280] absolute inset-0"></div>
           </div>
         </div>
-        <div class="hidden xl:block absolute bottom-[-6rem] right-[25rem] w-72 h-72 bg-red-50 rounded-full"></div>
+        <div class="hidden xl:block absolute bottom-[-3rem] right-[27rem] w-72 h-72 bg-red-50 rounded-full"></div>
       </div>
     </section>
   );

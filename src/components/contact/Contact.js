@@ -14,7 +14,7 @@ function Contact() {
           <div>
             <input
               type="text"
-              class="form-control rounded border-white mb-3 form-input"
+              class="form-contro  rounded border-white text-2xl w-full mb-6 form-input"
               id="name"
               placeholder="Name"
               required
@@ -23,7 +23,7 @@ function Contact() {
           <div>
             <input
               type="email"
-              class="form-control rounded border-white mb-3 form-input"
+              class="form-control rounded border-white text-2xl w-full mb-6 form-input"
               placeholder="Email"
               required
             />
@@ -31,7 +31,7 @@ function Contact() {
           <div>
             <input
               type="text"
-              class="form-control rounded border-white mb-3 form-input"
+              class="form-control rounded border-white text-2xl w-full mb-6 form-input"
               placeholder="Phone number"
               required
             />
@@ -39,7 +39,7 @@ function Contact() {
           <div>
             <textarea
               id="message"
-              class="form-control rounded border-white mb-3 form-text-area"
+              class="form-control rounded border-white text-2xl w-full mb-6 form-text-area"
               rows="5"
               cols="30"
               placeholder="Message"

@@ -14,7 +14,7 @@ function Team() {
   });
   return (
     <section className="team">
-      <div class="px-8 pt-24 pb-28 xl:px-5 min-h-screen place-content-center grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-screen-xl mx-auto teams">
+      <div class="px-8 pt-44 pb-28 xl:px-5 min-h-fit place-content-center grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-screen-xl mx-auto teams">
         <h1 class="capitalize text-center mb-5 md:mb-10 sm:col-span-2 lg:col-span-4 text-4xl sm:text-5xl xl:text-6xl font-extrabold  bg-clip-text text-black-500">
           meet our team
         </h1>
