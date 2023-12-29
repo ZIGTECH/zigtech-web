@@ -4,7 +4,7 @@ import "./product.scss";
 
 function Product() {
   return (
-    <div class="portfolio-2 py-6 md:py-12">
+    <div class="portfolio-2 py-6 md:py-12 md:pt-32">
       <div class="container px-4 mx-auto">
         <div class="md:flex md:justify-center">
           <div class="md:w-10/12 xl:w-8/12 text-center">

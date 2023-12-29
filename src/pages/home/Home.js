@@ -8,6 +8,7 @@ import Info from "../../components/info/Info";
 import Product from "../../components/product/Product";
 import Team from "../../components/team/Team";
 import Testimonial from "../../components/testimonial /Testimonial";
+import NewBanner from "../../components/newBanner/NewBanner";
 
 const Home = () => {
   return (
@@ -17,7 +18,8 @@ const Home = () => {
         <Info />
       </section>
       <section className="section2">
-        <Banner />
+        <NewBanner />
+        {/* <Banner /> */}
       </section>
       <section className="section2">
         <Product />
