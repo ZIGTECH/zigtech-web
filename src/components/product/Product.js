@@ -1,8 +1,29 @@
 import React from "react";
 import { images } from "../../images";
 import "./product.scss";
+import ProductCard from "./ProductCard";
 
 function Product() {
+  const cardDetails = [
+    {
+      heading: "iPay App",
+      content:
+        "A super payment app is a mobile application that allows users to make financial transactions electronically.",
+      image: images.hero,
+    },
+    {
+      heading: "hero SaaS",
+      content:
+        "Remittance SaaS System is a cloud-based software solution that enables individuals or businesses to send and receive money internationally.",
+      image: images.hero,
+    },
+    {
+      heading: "iMoney App",
+      content:
+        "A money transfer app is a mobile application that allows users to send and receive money electronically.",
+      image: images.hero,
+    },
+  ];
   return (
     <div class="portfolio-2 py-6 md:py-12 md:pt-32">
       <div class="container px-4 mx-auto">
@@ -25,9 +46,10 @@ function Product() {
             </div> */}
           </div>
         </div>
+        
 
-        <div class="sm:flex sm:flex-wrap gap-2 sm:-mx-4 mx-0 mt-6 md:mt-12 pb-6">
-          <div class="sm:p-6 p-10 sm:w-1/2 lg:w-[33%] mt-8 shadow-md hover:shadow-none">
+        <div class="sm:flex sm:flex-wrap  sm:-mx-4 mt-6 md:mt-12 pb-6">
+          <div class="sm:px-6 sm:w-1/2 lg:1/3 mt-8">
             <div class="portfolio-item mx-auto max-w-sm">
               <div class="portfolio-img relative overflow-hidden cursor-pointer">
                 <img
@@ -49,7 +71,8 @@ function Product() {
             </div>
           </div>
 
-          <div class="sm:p-6 p-10 sm:w-1/2 lg:w-[33%] mt-8 shadow-md hover:shadow-none">
+          <div class="sm:px-6 sm:w-1/2 lg:w-1/3 mt-8">
+
             <div class="portfolio-item mx-auto max-w-sm">
               <div class="portfolio-img relative overflow-hidden cursor-pointer">
                 <img
@@ -72,7 +95,9 @@ function Product() {
             </div>
           </div>
 
-          <div class="sm:p-6 p-10 sm:w-1/2 lg:w-[33%] mt-8 shadow-md hover:shadow-none">
+
+          <div class="sm:px-6 sm:w-1/2 lg:w-1/3 mt-8">
+
             <div class="portfolio-item mx-auto max-w-sm">
               <div
                 class="portfolio-img relative overflow-hidden cursor-pointer"
@@ -100,7 +125,7 @@ function Product() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* <div class="sm:px-6 sm:w-1/2 lg:w-1/3 mt-8">
             <div class="portfolio-item mx-auto max-w-sm">

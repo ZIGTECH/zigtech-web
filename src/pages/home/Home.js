@@ -21,7 +21,7 @@ const Home = () => {
         <NewBanner />
         {/* <Banner /> */}
       </section>
-      <section className="section2">
+      <section id="product" className="section2">
         <Product />
       </section>
       <section className="section2">
@@ -30,10 +30,10 @@ const Home = () => {
       <section className="section2">
         <Testimonial />
       </section>
-      <section className="section2">
+      <section id="team" className="section2">
         <Team />
       </section>
-      <section className="section2">
+      <section id="contact" className="section2">
         <Contact />
       </section>
     </div>

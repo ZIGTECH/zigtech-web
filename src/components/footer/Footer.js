@@ -14,11 +14,11 @@ const Footer = () => {
             Home
           </a>
 
-          <a href="#">Team</a>
+          <a href="#team">Team</a>
 
-          <a href="#">Portfolio</a>
+          <a href="#product">Portfolio</a>
 
-          <a href="#">Contact Us</a>
+          <a href="#contact">Contact Us</a>
         </p>
 
         <p class="footer-company-name">Zigtech © 2022</p>
