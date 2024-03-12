@@ -47,8 +47,8 @@ function Product() {
           </div>
         </div>
 
-        <div class="sm:flex sm:flex-wrap  sm:-mx-4 mt-6 md:mt-12 pb-6">
-          <div class="sm:px-6 sm:w-1/2 lg:w-1/3 mt-8">
+        <div class="sm:flex sm:flex-wrap justify-center align-middle gap-6  mt-6 md:mt-12 pb-6">
+          <div class="sm:px-6 sm:w-1/2 lg:w-[32%] mt-8 shadow-lg">
             <div class="portfolio-item mx-auto max-w-sm">
               <div class="portfolio-img relative overflow-hidden cursor-pointer">
                 <img
@@ -70,7 +70,7 @@ function Product() {
             </div>
           </div>
 
-          <div class="sm:px-6 sm:w-1/2 lg:w-1/3 mt-8">
+          <div class="sm:px-6 sm:w-1/2 lg:w-[32%] mt-8 shadow-lg">
             <div class="portfolio-item mx-auto max-w-sm">
               <div class="portfolio-img relative overflow-hidden cursor-pointer">
                 <img
@@ -93,7 +93,7 @@ function Product() {
             </div>
           </div>
 
-          <div class="sm:px-6 sm:w-1/2 lg:w-1/3 mt-8">
+          <div class="sm:px-6 sm:w-1/2 lg:w-[32%] mt-8 shadow-lg">
             <div class="portfolio-item mx-auto max-w-sm">
               <div
                 class="portfolio-img relative overflow-hidden cursor-pointer"
