@@ -12,7 +12,7 @@ const NewBanner = () => {
         </p>
         <div class="flex flex-wrap items-center justify-center w-full gap-6 lg:gap-0 lg:flex-nowrap lg:justify-between ">
           <Card img={images.ipay} />
-          <Card img={images.imoney} />
+          <img src={images.imoney_sm} alt="" className="w-44 h-44" />
           <Card img={images.gppa} />
           <Card img={images.iremit} />
           <Card img={images.eden} />
