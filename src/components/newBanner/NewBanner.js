@@ -8,7 +8,7 @@ const NewBanner = () => {
     <div className="max-w-[1300px] w-full shadow-lg mx-auto">
       <div class="container flex flex-col items-center gap-8 mx-auto my-32">
         <p class="text-5xl font-medium leading-7 text-center text-dark-grey-600">
-          Meet Our Pertners
+          Meet Our Partners
         </p>
         <div class="flex flex-wrap items-center justify-center w-full gap-6 lg:gap-0 lg:flex-nowrap lg:justify-between ">
           <Card img={images.ipay} />
